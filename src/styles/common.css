@@ -1452,7 +1452,7 @@ ul {
     }
 
     .custom-header .navbar-brand img {
-        height: 48px !important;
+       width: 150px;
     }
 
     .custom-header .container {
