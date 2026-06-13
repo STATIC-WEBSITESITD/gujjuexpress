@@ -85,22 +85,6 @@ function Header() {
             <Nav.Link as={Link} to="/tracking" onClick={closeMobileNav}>
               Tracking
             </Nav.Link>
-            <NavDropdown
-              title="Resources"
-              id="resources-dropdown"
-              className="custom-dropdown"
-              onToggle={(_, meta) => meta?.originalEvent?.stopPropagation()}
-            >
-              <NavDropdown.Item as={Link} to="/blogs" onClick={closeMobileNav}>
-                Blogs
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/documents" onClick={closeMobileNav}>
-                Documents
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/prohibited-goods" onClick={closeMobileNav}>
-                Prohibited Goods
-              </NavDropdown.Item>
-            </NavDropdown>
             <Nav.Link as={Link} to="/contact-us" onClick={closeMobileNav}>
               Contact Us
             </Nav.Link>

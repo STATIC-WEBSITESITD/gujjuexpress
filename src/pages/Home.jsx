@@ -9,7 +9,6 @@ import WhoWeServe from '../components/WhoWeServe'
 import Services from '../components/Services'
 import Faq from '../components/Faq'
 import Testimonials from '../components/Testimonials'
-import Blogs from '../components/Blogs'
 import Footer from '../components/Footer'
 import CtaBanner from '../components/CtaBanner'
 
@@ -26,7 +25,6 @@ function Home() {
         <Services />
         <Faq />
         <Testimonials />
-        <Blogs />
         <CtaBanner />
         <Footer />
       </>

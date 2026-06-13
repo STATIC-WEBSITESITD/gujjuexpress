@@ -83,21 +83,6 @@ function Footer() {
 
           </Col>
 
-          {/* Services */}
-          <Col lg={3} md={6}>
-
-            <h5 className="footer-title fs-5">
-              Resources
-            </h5>
-
-            <ul className="footer-links">
-              <li><Link to="/blogs">Blogs</Link></li>
-              <li><Link to="/documents">Documents</Link></li>
-              <li><Link to="/prohibited-goods">Prohibited Goods</Link></li>
-            </ul>
-
-          </Col>
-
           {/* Contact Us */}
           <Col lg={3} md={6}>
 
