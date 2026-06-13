@@ -11,6 +11,7 @@ import { Link } from 'react-router-dom'
 
 import logo from '../assets/logo.png'
 import { CONTACT } from '../data/contact'
+import { services } from '../data/services'
 
 function Header() {
 
@@ -54,6 +55,9 @@ function Header() {
         <Navbar.Collapse id="navbar-nav">
           {/* Center Menu */}
           <Nav className="mx-auto gap-lg-4 text-lg-center">
+            <Nav.Link as={Link} to="/" onClick={closeMobileNav}>
+              Home
+            </Nav.Link>
             <Nav.Link as={Link} to="/about-us" onClick={closeMobileNav}>
               About Us
             </Nav.Link>
@@ -63,24 +67,16 @@ function Header() {
               className="custom-dropdown"
               onToggle={(_, meta) => meta?.originalEvent?.stopPropagation()}
             >
-              <NavDropdown.Item as={Link} to="/international-courier" onClick={closeMobileNav}>
-                International Courier
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/export-commercial-shipment" onClick={closeMobileNav}>
-                Export / Commercial Shipment
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/amazon-fba-shipment" onClick={closeMobileNav}>
-                Amazon FBA Shipment
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/express-courier" onClick={closeMobileNav}>
-                Express Courier
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/documentation-support" onClick={closeMobileNav}>
-                Documentation Support
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/pickup-packaging-guidance" onClick={closeMobileNav}>
-                Pickup & Packaging Guidance
-              </NavDropdown.Item>
+              {services.map((service) => (
+                <NavDropdown.Item
+                  key={service.slug}
+                  as={Link}
+                  to={`/${service.slug}`}
+                  onClick={closeMobileNav}
+                >
+                  {service.title}
+                </NavDropdown.Item>
+              ))}
             </NavDropdown>
             <Nav.Link as={Link} to="/tracking" onClick={closeMobileNav}>
               Tracking

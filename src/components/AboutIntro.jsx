@@ -37,30 +37,31 @@ function AboutIntro() {
                 </h6>
 
                 <h2 className="section-title">
-                  Gujju Express — Your Global Shipping Partner
+                  Delivering More Than Parcels —
+                  We Deliver Connections
                 </h2>
 
               </div>
 
               <p className="section-para mb-4">
-                The founder of Gujju Express brings strong experience in the
-                logistics and international courier industry and is actively
-                building the business with a clear vision. The company&apos;s
-                primary focus is to provide clients with reliable, fast, and
-                cost-effective international shipping solutions.
+                Welcome to <strong>Gujju Express</strong>,
+                your reliable international logistics partner
+                based in Ahmedabad, Gujarat.
               </p>
 
               <p className="section-para mb-4">
-                Gujju Express supports exporters, businesses, and e-commerce
-                sellers by offering end-to-end logistics services, helping them
-                expand their reach in global markets. Customer satisfaction,
-                transparency, and a strong commitment to growth are the core
-                principles that drive the company forward.
+                We blend traditional service values with modern
+                logistics expertise — offering international courier,
+                commercial shipment, air freight, e-commerce shipping,
+                door-to-door delivery, and excess baggage services.
               </p>
 
-              <blockquote className="about-founder-quote">
-                — Jitendra D. Raval
-              </blockquote>
+              <p className="section-para mb-0">
+                Whether you are an exporter, online seller, student
+                relocating abroad, or sending a personal parcel, we
+                ensure smooth shipping from pickup to final delivery
+                with transparent pricing and real-time updates.
+              </p>
 
             </Col>
 

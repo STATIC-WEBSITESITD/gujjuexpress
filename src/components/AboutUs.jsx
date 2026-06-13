@@ -40,31 +40,30 @@ function AboutUs() {
                 </h6>
 
                 <h2 className="section-title">
-                  Delivering Your Business to
-                  the World with Speed &
-                  Reliability
+                  Delivering More Than Parcels —
+                  We Deliver Connections
                 </h2>
 
               </div>
 
               <p className="section-para mb-4">
                 Welcome to <strong>Gujju Express</strong>,
-                your reliable logistics and shipping partner
-                based in Ahmedabad.
+                your reliable international logistics partner
+                based in Ahmedabad, Gujarat.
               </p>
 
               <p className="section-para mb-4">
-                We specialize in international courier
-                services, export-commercial shipments,
-                Amazon FBA logistics, and express
-                global deliveries.
+                We blend traditional service values with modern
+                logistics expertise — offering international courier,
+                commercial shipment, air freight, e-commerce shipping,
+                door-to-door delivery, and excess baggage services.
               </p>
 
               <p className="section-para mb-4">
-                Whether you are sending documents,
-                parcels, commercial cargo, or e-commerce
-                inventory, we ensure smooth shipping
-                from pickup to final delivery.
+                Whether you are an exporter, online seller, student
+                relocating abroad, or sending a personal parcel, we
+                ensure smooth shipping from pickup to final delivery
+                with transparent pricing and real-time updates.
               </p>
 
               <Button

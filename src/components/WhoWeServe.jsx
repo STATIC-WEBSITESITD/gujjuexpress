@@ -11,27 +11,27 @@ function WhoWeServe() {
   const services = [
   {
     image: service1,
-    subtitle: 'Fast Courier Service for Quick & Reliable Deliveries',
+    subtitle: 'Individuals & Families',
     title: 'Personal & Family Shipments',
-    text: 'Send parcels, essentials, and gifts safely across borders.',
+    text: 'Send parcels, gifts, and excess baggage safely across borders with door-to-door delivery.',
     button: 'Know More »',
-    link: '/about-us'
+    link: '/door-to-door'
   },
   {
     image: service2,
-    subtitle: 'Fast Courier Service for Quick & Reliable Deliveries',
+    subtitle: 'Exporters & Manufacturers',
     title: 'Business & Export Solutions',
-    text: 'Reliable international logistics tailored for commercial shipments.',
+    text: 'Commercial shipment and air freight for exporters expanding into global markets.',
     button: 'Know More »',
-    link: '/about-us'
+    link: '/commercial-shipment'
   },
   {
     image: service3,
-    subtitle: 'Fast Courier Service for Quick & Reliable Deliveries',
-    title: 'Students Shipping',
-    text: 'Affordable and reliable shipping solutions for students moving abroad.',
+    subtitle: 'E-Commerce Sellers & SMEs',
+    title: 'Online Store Shipping',
+    text: 'Affordable international shipping for e-commerce orders and marketplace inventory.',
     button: 'Know More »',
-    link: '/about-us'
+    link: '/ecommerce-shipping'
   }
 ]
 
@@ -48,8 +48,13 @@ function WhoWeServe() {
 
           <h2 className="section-title">
             Solutions for Every
-            Kind of Journey
+            Shipping Need
           </h2>
+
+          <p className="section-para">
+            From personal parcels and excess baggage to commercial
+            exports and e-commerce orders — we serve every kind of journey.
+          </p>
 
         </div>
 

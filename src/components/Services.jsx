@@ -13,12 +13,12 @@ function Services({ limit = 3 }) {
           <div className="section-header text-start mb-4 mb-lg-0">
 
             <h6 className="section-subtitle">
-              Logistics Services
+              Our Services
             </h6>
 
             <h2 className="section-title mb-0">
-              We Are Trusted For
-              Our Services
+              Global Reach,
+              Reliable Shipping
             </h2>
 
           </div>

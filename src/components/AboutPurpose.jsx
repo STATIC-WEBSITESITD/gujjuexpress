@@ -8,19 +8,19 @@ function AboutPurpose() {
       icon: 'fa-solid fa-eye',
       title: 'Our Vision',
       text:
-        'To be the most trusted international courier partner from Ahmedabad helping Indian businesses reach every global market with confidence.'
+        'To be the most trusted international shipping partner from Ahmedabad — connecting Indian businesses and individuals to 200+ global destinations with confidence and care.'
     },
     {
       icon: 'fa-solid fa-bullseye',
       title: 'Our Mission',
       text:
-        'To deliver fast, compliant, and cost-effective shipping through expert pickup-to-delivery support, strong carrier partnerships, and proactive customer communication.'
+        'To deliver fast, affordable, and compliant shipping through door-to-door service, expert documentation support, strong carrier partnerships, and proactive customer communication at every stage.'
     },
     {
       icon: 'fa-solid fa-heart',
       title: 'Our Values',
       text:
-        'Reliability, transparency, speed, and customer-first service supported by careful documentation, responsible handling, and consistent updates.'
+        'Reliability, transparency, and customer-first service — supported by competitive pricing, careful handling, accurate documentation, and consistent shipment updates.'
     }
   ]
 
@@ -39,9 +39,9 @@ function AboutPurpose() {
           </h2>
 
           <p className="section-para">
-            We focus on reliable global delivery, clear documentation guidance,
-            and long-term partnerships for exporters, SMEs, startups, and
-            e-commerce brands.
+            We focus on reliable global delivery, competitive rates, and
+            long-term partnerships for exporters, e-commerce sellers, SMEs,
+            students, and families shipping internationally.
           </p>
 
         </div>

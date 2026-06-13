@@ -42,9 +42,9 @@ function CtaBanner() {
                 </h2>
 
                 <p className="section-para text-white mt-3">
-                  Fast, secure and reliable
-                  international courier &
-                  cargo services.
+                  International courier, air freight,
+                  e-commerce shipping &amp; door-to-door
+                  delivery — all from one trusted partner.
                 </p>
 
               </div>

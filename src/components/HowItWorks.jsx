@@ -6,33 +6,33 @@ function HowItWorks() {
   const process = [
     {
       icon: '📝',
-      title: 'Request Quote',
-      text: 'Share shipment details for the best rate.'
+      title: 'Book & Get a Quote',
+      text: 'Share shipment details online or via WhatsApp for an instant price and pickup schedule.'
     },
     {
       icon: '🚚',
       title: 'Pickup Scheduled',
-      text: 'Doorstep collection at your convenience.'
+      text: 'We collect your package from your home, office, or warehouse at your convenience.'
     },
     {
       icon: '📦',
       title: 'Secure Packaging',
-      text: 'Handled carefully with professional packing.'
+      text: 'Your shipment is handled carefully with practical packing guidance for safe transit.'
     },
     {
       icon: '🛃',
       title: 'Customs Clearance',
-      text: 'Documentation and compliance managed by experts.'
+      text: 'We manage documentation and customs paperwork so your shipment clears smoothly.'
+    },
+    {
+      icon: '📍',
+      title: 'Track in Real Time',
+      text: 'Monitor your shipment at every stage from dispatch to final delivery.'
     },
     {
       icon: '✅',
       title: 'Delivered Safely',
-      text: 'Delivered on time with live tracking updates.'
-    },
-    {
-      icon: '🛡️',
-      title: 'Insurance Assistance',
-      text: 'Optional shipment protection and claim support for extra peace of mind.'
+      text: 'Your parcel reaches its destination on time with end-to-end delivery coordination.'
     }
   ]
 
@@ -48,9 +48,14 @@ function HowItWorks() {
           </h6>
 
           <h2 className="section-title">
-            A Simple Process Complete
-            Peace Of Mind
+            Simple 3-Step Shipping,
+            Complete Peace of Mind
           </h2>
+
+          <p className="section-para">
+            From quote to delivery — a straightforward process
+            designed for convenience, transparency, and reliability.
+          </p>
 
         </div>
 

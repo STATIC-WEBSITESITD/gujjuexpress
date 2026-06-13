@@ -11,13 +11,14 @@ function HomeBanner() {
                     <div className="row align-items-end g-0 g-md-5">
                         <div className="col-lg-7">
                             <h1 className="fw-bold display-5 mb-3">
-                                Your Trusted Partner for
-                                International Shipping
+                                Global Shipping,
+                                Simplified
                             </h1>
                             <p className="fs-5 mb-4">
-                                Ship Worldwide from Ahmedabad with Secure
-                                Pickup, Customs Guidance, and Real-Time
-                                Tracking Updates.
+                                Gujju Express connects businesses and individuals
+                                to global destinations with fast, affordable delivery.
+                                Enjoy transparent pricing, door-to-door service, and
+                                real-time tracking to the UK, USA, UAE, Canada, and beyond.
                             </p>
                             {/* Buttons */}
                             <div className="d-flex gap-2 gap-lg-3 flex-wrap justify-content-center justify-content-md-start mb-5">
@@ -54,7 +55,7 @@ function HomeBanner() {
                                         <i className="fa-solid fa-check-circle"></i>
                                         <div className="feature-content">
                                             <h6 className="fw-bold mb-0">
-                                                150+ Countries
+                                                200+ Countries
                                             </h6>
                                         </div>
                                     </div>

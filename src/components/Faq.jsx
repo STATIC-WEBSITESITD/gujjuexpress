@@ -1,32 +1,39 @@
 import React from 'react'
-import { Container, Accordion } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
+import FaqAccordion from './FaqAccordion'
 
 function Faq() {
 
   const faqs = [
     {
       question:
-        'What documents are required for international shipping?',
+        'Which countries do you ship to?',
       answer:
-        'Required documents may include invoice, ID proof, shipping label, customs declaration, and country-specific documentation depending on the shipment type.'
+        'We deliver to 200+ countries and territories worldwide, including the USA, UK, UAE, Canada, Australia, Germany, Singapore, Saudi Arabia, and all major international destinations.'
     },
     {
       question:
-        'Do you provide real-time tracking for all shipments?',
+        'What services does Gujju Express offer?',
       answer:
-        'Yes, we provide real-time shipment tracking for most international courier services so customers can monitor delivery progress anytime.'
+        'We offer international courier, commercial shipment, air freight, e-commerce shipping, door-to-door delivery, and excess baggage services — covering both personal and business shipping needs.'
     },
     {
       question:
-        'How do I book an Amazon FBA shipment?',
+        'How does door-to-door shipping work?',
       answer:
-        'Booking an Amazon FBA shipment is easy. Simply contact us with your shipment details, and we will handle the labeling support, warehouse delivery, and all necessary compliance documentation for the USA, UK, UAE, and other regions.'
+        'Share your shipment details for a quote, schedule a pickup from your location, and we handle documentation and customs clearance. Track your shipment in real time until it is delivered to the recipient\'s address.'
     },
     {
       question:
-        'What are the average delivery times for express shipping?',
+        'What are the average delivery times for air freight?',
       answer:
-        'Delivery times usually range from 3–7 business days depending on the destination country, customs clearance, and courier service selected.'
+        'Air freight typically delivers within 3–7 business days depending on destination, customs clearance, and final-mile delivery. Economy courier options may take 7–14 business days.'
+    },
+    {
+      question:
+        'Do you provide a tracking number?',
+      answer:
+        'Yes. After your shipment is processed, we share a tracking number and proactive updates at key milestones until delivery is completed.'
     }
   ]
 
@@ -34,7 +41,6 @@ function Faq() {
     <section className="faq-section section-padding">
       <Container>
 
-        {/* Heading */}
         <div className="section-header text-center">
 
           <h6 className="section-subtitle">
@@ -48,34 +54,13 @@ function Faq() {
 
           <p className="section-para">
             Find answers to common questions about
-            international shipping, tracking,
-            documentation, and delivery services.
+            international courier, air freight, e-commerce
+            shipping, tracking, and door-to-door delivery.
           </p>
 
         </div>
 
-        {/* FAQ Accordion */}
-        <Accordion defaultActiveKey="0">
-
-          {faqs.map((item, index) => (
-            <Accordion.Item
-              eventKey={index.toString()}
-              key={index}
-              className="faq-item"
-            >
-
-              <Accordion.Header>
-                {item.question}
-              </Accordion.Header>
-
-              <Accordion.Body>
-                {item.answer}
-              </Accordion.Body>
-
-            </Accordion.Item>
-          ))}
-
-        </Accordion>
+        <FaqAccordion faqs={faqs} />
 
       </Container>
     </section>

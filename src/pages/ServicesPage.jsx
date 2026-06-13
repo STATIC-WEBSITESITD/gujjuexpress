@@ -15,8 +15,8 @@ function ServicesPage() {
           <p className="page-banner-kicker">Gujju Express</p>
           <h1 className="page-banner-title">Our Services</h1>
           <p className="page-banner-text">
-            Reliable international shipping solutions tailored to your needs —
-            fast pickup, secure packaging, and on-time delivery worldwide.
+            Global shipping, simplified — from air freight and commercial
+            shipments to door-to-door delivery and e-commerce logistics.
           </p>
         </Container>
       </section>

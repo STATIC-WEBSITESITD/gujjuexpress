@@ -1,9 +1,10 @@
 import React from 'react'
 import { Navigate, useLocation, Link } from 'react-router-dom'
-import { Container, Row, Col, Accordion } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import CtaBanner from '../components/CtaBanner'
+import FaqAccordion from '../components/FaqAccordion'
 import { getServiceBySlug } from '../data/services'
 
 function ServiceParagraph({ text }) {
@@ -105,18 +106,7 @@ function ServiceDetailPage() {
             )}
           </div>
 
-          <Accordion defaultActiveKey="0">
-            {service.faqs.map((item, index) => (
-              <Accordion.Item
-                eventKey={index.toString()}
-                key={index}
-                className="faq-item"
-              >
-                <Accordion.Header>{item.question}</Accordion.Header>
-                <Accordion.Body>{item.answer}</Accordion.Body>
-              </Accordion.Item>
-            ))}
-          </Accordion>
+          <FaqAccordion faqs={service.faqs} />
 
           <p className="policy-back mt-5 text-center">
             <Link to="/contact-us">Contact us</Link> for a quote or pickup

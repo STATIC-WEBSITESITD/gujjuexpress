@@ -11,27 +11,27 @@ function Testimonials() {
   const testimonials = [
     {
       text:
-        'Best service. Very polite and well-mannered staff. All shifting was carried out smoothly.',
+        'Excellent international courier service from Ahmedabad. Door-to-door pickup was smooth and my parcel reached the UK on time with clear tracking updates.',
       name: 'Stephan Seigieth'
     },
     {
       text:
-        'It has been meticulously crafted to cause as little disruption as possible while providing the greatest possible return on investment.',
+        'We use Gujju Express for commercial shipments and air freight regularly. Transparent pricing, reliable delivery, and great WhatsApp support throughout.',
       name: 'Rahul Mahto'
     },
     {
       text:
-        'One of the best companies with the fastest delivery across Pan India at reasonable rates.',
+        'Affordable e-commerce shipping rates that helped us expand to the USA and UAE. Professional team and hassle-free documentation support.',
       name: 'Akhil Patnayak'
     },
     {
       text:
-        'Excellent service for both domestic and international locations.',
+        'Sent excess baggage abroad before relocating for studies. Much cheaper than airline fees and everything arrived safely at my destination.',
       name: 'Rakesh Panigarhi'
     },
     {
       text:
-        'Best domestic cargo and courier service. Appreciated for their delivery services and professional work.',
+        'Best international courier in Gujarat. Fast pickup, secure handling, and dependable delivery for both personal and business shipments.',
       name: 'Papercraft'
     }
   ]
@@ -52,8 +52,8 @@ function Testimonials() {
           </h2>
 
           <p className="section-para">
-            Trusted by customers for reliable,
-            fast, and professional shipping services.
+            Trusted by exporters, e-commerce sellers, and families
+            for reliable international shipping and professional service.
           </p>
 
         </div>

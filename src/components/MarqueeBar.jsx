@@ -7,18 +7,20 @@ function MarqueeBar() {
 
         <div className="marquee-content">
 
-          <span>🚚 Doorstep Pickup</span>
-          <span>✈️ Customs Support</span>
+          <span>🚚 Door to Door Delivery</span>
+          <span>✈️ Air Freight &amp; Commercial Cargo</span>
           <span>📍 Real-Time Tracking</span>
-          <span>🌍 220+ Countries</span>
-          <span>📦 Secure Delivery</span>
+          <span>🌍 200+ Countries</span>
+          <span>🛒 E-Commerce Shipping</span>
+          <span>🧳 Excess Baggage Shipping</span>
 
           {/* Duplicate for smooth loop */}
-          <span>🚚 Doorstep Pickup</span>
-          <span>✈️ Customs Support</span>
+          <span>🚚 Door to Door Delivery</span>
+          <span>✈️ Air Freight &amp; Commercial Cargo</span>
           <span>📍 Real-Time Tracking</span>
-          <span>🌍 220+ Countries</span>
-          <span>📦 Secure Delivery</span>
+          <span>🌍 200+ Countries</span>
+          <span>🛒 E-Commerce Shipping</span>
+          <span>🧳 Excess Baggage Shipping</span>
 
         </div>
 

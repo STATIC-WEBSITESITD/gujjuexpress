@@ -19,8 +19,9 @@ function About() {
             About Us
           </h1>
           <p className="page-banner-text">
-            Learn how Gujju Express helps businesses and exporters
-            ship worldwide from Ahmedabad with reliability and care.
+            Gujju Express is more than shipping — it is about connections,
+            memories, and dreams crossing borders. Learn how we help businesses
+            and individuals ship worldwide from Ahmedabad with care and reliability.
           </p>
         </Container>
       </section>

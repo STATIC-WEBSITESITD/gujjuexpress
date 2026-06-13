@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 import logoWhite from '../assets/logo-white.png'
 import { COMPANY_ADDRESS, CONTACT } from '../data/contact'
+import { services } from '../data/services'
 
 const WHATSAPP_HREF = CONTACT.whatsappHref
 
@@ -79,6 +80,23 @@ function Footer() {
               <li><Link to="/services">Services</Link></li>
               <li><Link to="/tracking">Tracking</Link></li>
               <li><Link to="/contact-us">Contact Us</Link></li>
+            </ul>
+
+          </Col>
+
+          {/* Our Services */}
+          <Col lg={3} md={6}>
+
+            <h5 className="footer-title fs-5">
+              Our Services
+            </h5>
+
+            <ul className="footer-links">
+              {services.map((service) => (
+                <li key={service.slug}>
+                  <Link to={`/${service.slug}`}>{service.title}</Link>
+                </li>
+              ))}
             </ul>
 
           </Col>

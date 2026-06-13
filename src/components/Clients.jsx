@@ -35,9 +35,9 @@ function Clients() {
           </h2>
 
           <p className="section-para">
-            Trusted by businesses and individuals
-            for secure international shipping,
-            real-time tracking, and reliable delivery.
+            Trusted by exporters, e-commerce sellers, and families
+            for secure international shipping, competitive rates,
+            and dependable door-to-door delivery.
           </p>
 
         </div>

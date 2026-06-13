@@ -737,14 +737,14 @@ ul {
     margin-bottom: 0;
 }
 
-.about-faq-section .faq-number {
+.faq-section .faq-number {
     color: var(--accent);
     font-weight: 700;
     margin-right: 10px;
     flex-shrink: 0;
 }
 
-.about-faq-section .faq-item .accordion-button:not(.collapsed) .faq-number {
+.faq-section .faq-item .accordion-button:not(.collapsed) .faq-number {
     color: #fff;
 }
 

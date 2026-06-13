@@ -1,537 +1,536 @@
 import { CONTACT } from './contact'
 import internationalCourier from '../assets/international-courier.webp'
 import exportCommercial from '../assets/export-commercial.webp'
-import amazonFba from '../assets/amazon-fba.webp'
 import expressCourier from '../assets/express-courier.webp'
-import documentationSupport from '../assets/documentation-support.webp'
+import amazonFba from '../assets/amazon-fba.webp'
 import pickupPackaging from '../assets/pickup-packaging.webp'
+import documentationSupport from '../assets/documentation-support.webp'
 
 const images = {
-  internationalCourier: internationalCourier,
-  exportCommercial: exportCommercial,
-  amazonFba: amazonFba,
-  expressCourier: expressCourier,
-  documentationSupport: documentationSupport,
-  pickupPackaging: pickupPackaging,
+  internationalCourier,
+  exportCommercial,
+  airFreight: expressCourier,
+  ecommerce: amazonFba,
+  doorToDoor: pickupPackaging,
+  excessBaggage: documentationSupport,
 }
 
 export const services = [
   {
-    "slug": "international-courier",
-    "title": "International Courier",
-    "bannerTitle": "International Courier",
-    "bannerText": "Doorstep pickup, customs support, and fast worldwide delivery.",
-    "image": images.internationalCourier,
-    "cardText": "Fast international delivery for documents and parcels with doorstep pickup, real-time tracking, and reliable worldwide coverage.",
-    "faqIntro": "Quick answers to the most common questions about international courier pickup, paperwork, transit time, tracking, and customs.",
-    "introSections": [
+    slug: 'international-courier',
+    title: 'International Courier',
+    bannerTitle: 'International Courier',
+    bannerText: 'Fast, affordable international delivery for documents, parcels, and personal shipments worldwide.',
+    image: images.internationalCourier,
+    cardText: 'Send documents, gifts, and personal parcels worldwide with doorstep pickup, real-time tracking, and transparent pricing.',
+    faqIntro: 'Quick answers about international courier booking, pickup, tracking, and delivery timelines.',
+    introSections: [
       {
-        "title": "Ship Worldwide, Effortlessly",
-        "paragraphs": [
-          "At Gujju Express, we understand that when it comes to sending parcels, documents, or commercial goods across borders, every shipment matters.",
-          "Our International Courier Service is designed to offer businesses, exporters, and individuals a seamless, hassle-free experience for sending packages to any corner of the world.",
-          "With strong partnerships with globally trusted carriers and deep expertise in customs and logistics, we ensure your shipment reaches its destination safely, on time, and within budget."
-        ]
+        title: 'Global Shipping, Simplified',
+        paragraphs: [
+          'Gujju Express connects individuals and businesses to global destinations with fast, reliable international courier service.',
+          'From Ahmedabad to the UK, USA, Canada, UAE, and across Europe — we handle pickup, documentation, and delivery with clear updates at every stage.',
+          'Enjoy transparent pricing, direct carrier networks, and dependable service whether you are sending once or shipping regularly.',
+        ],
       },
       {
-        "title": "What we do in International Courier",
-        "paragraphs": [
-          "Door-to-Door Pickup: We collect your shipment directly from your office, warehouse, or home and ensure it is delivered to the recipient's doorstep anywhere in the world. No need to visit courier offices or worry about drop-off logistics — we handle it all from start to finish.",
-          "Customs Clearance: Our experienced team handles all necessary customs documentation including commercial invoices, packing lists, and export declarations, ensuring your shipment clears customs smoothly without unnecessary delays or penalties.",
-          "Live Tracking: Stay informed at every step of your shipment's journey. We provide real-time tracking so you and your recipient can monitor the status of the parcel from dispatch to final delivery with complete transparency and peace of mind.",
-          "Flexible Shipping Options: Choose our express international courier service for time-sensitive deliveries or opt for economy options for cost-effective sending of non-urgent packages. Both options come with reliable handling and professional care."
-        ]
-      }
+        title: 'What We Do',
+        paragraphs: [
+          'Doorstep Pickup: We collect your shipment from your home, office, or warehouse — no need to visit a courier branch.',
+          'Customs & Documentation: Our team guides you on invoices, KYC, and shipment details so your parcel clears customs smoothly.',
+          'Real-Time Tracking: Stay informed from dispatch to final delivery with tracking updates you can share with your recipient.',
+          'Flexible Options: Choose express delivery for urgent shipments or economy routes for cost-effective sending.',
+        ],
+      },
     ],
-    "benefitsIntro": {
-      "title": "Key Benefits — International Courier Service Benefits",
-      "text": "Reliable global reach, transparent pricing, and strong documentation support — built to help individuals and businesses ship confidently."
+    benefitsIntro: {
+      title: 'Why Choose Our International Courier',
+      text: 'Reliable global reach, competitive rates, and hands-on support — built for individuals and businesses shipping from India.',
     },
-    "benefits": [
+    benefits: [
       {
-        "icon": "fas fa-globe",
-        "title": "220+ Countries Covered",
-        "text": "Deliver to 220+ countries and territories worldwide — USA, UK, UAE, Europe, Southeast Asia, and more — with a reliable international network."
+        icon: 'fas fa-globe',
+        title: '200+ Countries Covered',
+        text: 'Ship to major destinations including the USA, UK, UAE, Canada, Australia, and Europe with a trusted international network.',
       },
       {
-        "icon": "fas fa-tags",
-        "title": "Affordable Pricing",
-        "text": "Highly competitive and transparent pricing with no hidden charges — ideal for startups, SMEs, and individual exporters across India."
+        icon: 'fas fa-tags',
+        title: 'Affordable Pricing',
+        text: 'Competitive rates with no hidden charges — save compared to traditional courier options on many international lanes.',
       },
       {
-        "icon": "fas fa-file-alt",
-        "title": "Zero Paperwork Stress",
-        "text": "Expert guidance on customs regulations, HS codes, and documentation so shipments don’t get held up due to avoidable paperwork errors."
+        icon: 'fas fa-file-alt',
+        title: 'Paperwork Support',
+        text: 'Guidance on customs documentation and shipment declarations to help avoid avoidable delays at clearance.',
       },
       {
-        "icon": "fas fa-clock",
-        "title": "On-Time Delivery",
-        "text": "Streamlined dispatch and proactive monitoring help ensure delivery within committed timelines — typically 2–7 working days."
+        icon: 'fas fa-clock',
+        title: 'On-Time Delivery',
+        text: 'Priority dispatch and proactive monitoring to keep your shipment moving within committed timelines.',
       },
       {
-        "icon": "fab fa-whatsapp",
-        "title": "WhatsApp Support",
-        "text": "Get quick quotes, shipment updates, and answers on WhatsApp and calls — a real person to help you, without delays."
+        icon: 'fab fa-whatsapp',
+        title: 'WhatsApp Support',
+        text: 'Get quotes, booking help, and shipment updates quickly via WhatsApp and phone.',
       },
       {
-        "icon": "fas fa-handshake",
-        "title": "Trusted by Businesses",
-        "text": "Trusted by exporters, manufacturers, and e-commerce sellers across India — backed by consistent service and client satisfaction."
-      }
+        icon: 'fas fa-handshake',
+        title: 'Trusted Service',
+        text: 'Reliable handling for exporters, families, and businesses across Gujarat and beyond.',
+      },
     ],
-    "faqs": [
+    faqs: [
       {
-        "question": "Which countries do you deliver to?",
-        "answer": "We deliver to 220+ countries and territories worldwide, including the USA, UK, UAE, Canada, Australia, Germany, Singapore, Saudi Arabia, and all major international destinations."
+        question: 'Which countries do you deliver to?',
+        answer: 'We deliver to 200+ countries and territories, including the USA, UK, UAE, Canada, Australia, Germany, Singapore, and other major international destinations.',
       },
       {
-        "question": "How do I book an international courier from Ahmedabad?",
-        "answer": `Simply contact us via phone or WhatsApp at ${CONTACT.phone}. Our team will arrange a pickup from your location, assist with documentation, and provide you with a competitive shipping quote.`
+        question: 'How do I book an international courier shipment?',
+        answer: `Contact us via phone or WhatsApp at ${CONTACT.phone}. Share your destination, weight, and item details — we will arrange pickup and provide a clear quote.`,
       },
       {
-        "question": "What items can I send through your international courier service?",
-        "answer": "You can send documents, commercial goods, gifts, samples, garments, and electronics (with restrictions). Certain items like hazardous materials, currency, and prohibited goods cannot be shipped internationally. Contact us for a detailed list."
+        question: 'What items can I send internationally?',
+        answer: 'You can send documents, gifts, samples, garments, and many commercial goods (subject to restrictions). Prohibited or hazardous items cannot be shipped. Contact us with your item list for confirmation.',
       },
       {
-        "question": "How long does international courier delivery take from India?",
-        "answer": "Express shipments typically take 2–5 working days, while economy options may take 7–14 working days depending on the destination country."
+        question: 'How long does international delivery take?',
+        answer: 'Express shipments typically take 2–5 working days. Economy options may take 7–14 working days depending on destination and customs processing.',
       },
       {
-        "question": "Do you provide a tracking number?",
-        "answer": "Yes. Every shipment is assigned a tracking number, allowing you and your recipient to monitor the parcel's status in real time through our carrier's tracking portal."
-      }
-    ]
+        question: 'Do you provide a tracking number?',
+        answer: 'Yes. Every shipment receives a tracking number so you and your recipient can monitor status from dispatch to delivery.',
+      },
+    ],
   },
   {
-    "slug": "export-commercial-shipment",
-    "title": "Export / Commercial Shipment",
-    "bannerTitle": "Export Commercial",
-    "bannerText": "Commercial export shipping with documentation and routing support.",
-    "image": images.exportCommercial,
-    "cardText": "Air and sea freight options for commercial shipments with customs support and export documentation guidance.",
-    "faqIntro": "Quick answers about commercial export shipping, documents, and transit options.",
-    "introSections": [
+    slug: 'commercial-shipment',
+    title: 'Commercial Shipment',
+    bannerTitle: 'Commercial Shipment',
+    bannerText: 'End-to-end commercial export shipping with documentation support and reliable global routing.',
+    image: images.exportCommercial,
+    cardText: 'Move commercial cargo internationally with air and sea options, export documentation guidance, and dependable delivery coordination.',
+    faqIntro: 'Quick answers about commercial export shipping, documents, and transit options.',
+    introSections: [
       {
-        "title": "Export Shipping, Done Right",
-        "paragraphs": [
-          "Ship commercial goods internationally with clear paperwork, reliable routing, and proactive support.",
-          "We help exporters, manufacturers, and traders move shipments by air or sea with proper documentation and customs guidance.",
-          "From pickup to final delivery, we coordinate the process so your cargo reaches global markets smoothly and on schedule."
-        ]
+        title: 'Commercial Shipping, Done Right',
+        paragraphs: [
+          'Ship commercial goods internationally with clear paperwork, reliable routing, and proactive support from pickup to delivery.',
+          'We help exporters, manufacturers, and traders move shipments by air or sea with proper documentation and customs guidance.',
+          'Whether you ship samples, bulk cargo, or recurring export orders, we coordinate the process so your goods reach global markets on schedule.',
+        ],
       },
       {
-        "title": "What we do in Export Commercial",
-        "paragraphs": [
-          "Commercial Cargo Pickup: We collect your shipment directly from your factory, warehouse, or office in Ahmedabad and nearby locations, with proper handover and packaging checks to ensure safe dispatch.",
-          "Documentation & Compliance: Our team assists with invoices, packing lists, KYC, and export-related paperwork so your shipment is fully prepared and compliant before it leaves your premises.",
-          "Air & Sea Freight Coordination: We handle route planning and service selection based on your delivery timelines, cargo type, and budget — ensuring the most suitable transit mode for your goods.",
-          "Tracking & Updates: Stay informed throughout the journey with regular status updates and tracking support — from dispatch all the way to final delivery at the destination."
-        ]
-      }
+        title: 'What We Do',
+        paragraphs: [
+          'Commercial Cargo Pickup: We collect shipments from your factory, warehouse, or office with proper handover and packaging checks.',
+          'Documentation & Compliance: Assistance with invoices, packing lists, KYC, and export paperwork before dispatch.',
+          'Air & Sea Coordination: Route planning based on your timeline, cargo type, and budget for the most suitable transit mode.',
+          'Tracking & Updates: Regular status updates from dispatch through to final delivery at the destination.',
+        ],
+      },
     ],
-    "benefitsIntro": {
-      "title": "Key Benefits — Export Commercial Benefits",
-      "text": "Reliable export handling, clear documentation support, and practical transit options — built for businesses."
+    benefitsIntro: {
+      title: 'Why Choose Our Commercial Shipment Service',
+      text: 'Reliable export handling, clear documentation support, and practical transit options — built for growing businesses.',
     },
-    "benefits": [
+    benefits: [
       {
-        "icon": "fas fa-globe",
-        "title": "Global Export Coverage",
-        "text": "Ship to key destinations worldwide with dependable partner networks and route planning."
+        icon: 'fas fa-globe',
+        title: 'Global Export Coverage',
+        text: 'Ship to key destinations worldwide with dependable partner networks and route planning.',
       },
       {
-        "icon": "fas fa-file-alt",
-        "title": "Export Documentation",
-        "text": "Guidance for invoices, packing lists, KYC, and shipment paperwork to reduce clearance delays."
+        icon: 'fas fa-file-alt',
+        title: 'Export Documentation',
+        text: 'Guidance for invoices, packing lists, KYC, and shipment paperwork to reduce clearance delays.',
       },
       {
-        "icon": "fas fa-cubes",
-        "title": "Air & Sea Options",
-        "text": "Choose speed with air freight or optimize costs with sea freight — based on your cargo and timeline."
+        icon: 'fas fa-cubes',
+        title: 'Air & Sea Options',
+        text: 'Choose air freight for speed or sea freight to optimize costs based on your cargo and timeline.',
       },
       {
-        "icon": "fas fa-handshake",
-        "title": "Business Support",
-        "text": "Clear communication for pickup, dispatch, and delivery updates — ideal for regular exporters."
+        icon: 'fas fa-handshake',
+        title: 'Business Support',
+        text: 'Clear communication for pickup, dispatch, and delivery — ideal for regular exporters.',
       },
       {
-        "icon": "fab fa-whatsapp",
-        "title": "Fast Assistance",
-        "text": "Quick quotes and shipment status updates via WhatsApp and calls when you need them."
+        icon: 'fab fa-whatsapp',
+        title: 'Fast Assistance',
+        text: 'Quick quotes and shipment status updates via WhatsApp and calls when you need them.',
       },
       {
-        "icon": "fas fa-tags",
-        "title": "Transparent Pricing",
-        "text": "Competitive rates with a clear cost breakdown — so you can plan margins confidently."
-      }
+        icon: 'fas fa-tags',
+        title: 'Transparent Pricing',
+        text: 'Competitive rates with a clear cost breakdown so you can plan margins confidently.',
+      },
     ],
-    "faqs": [
+    faqs: [
       {
-        "question": "What documents are needed for export shipments?",
-        "answer": "Commonly required documents include a commercial invoice, packing list, and KYC. Depending on goods and destination, additional declarations or certificates may be required. We guide you on what applies to your shipment."
+        question: 'What documents are needed for commercial shipments?',
+        answer: 'Commonly required documents include a commercial invoice, packing list, and KYC. Depending on goods and destination, additional declarations or certificates may be required. We guide you on what applies.',
       },
       {
-        "question": "Do you offer air and sea freight?",
-        "answer": "Yes. We coordinate both air and sea options. We recommend the best fit based on cargo type, urgency, destination, and budget."
+        question: 'Do you offer air and sea freight?',
+        answer: 'Yes. We coordinate both air and sea options and recommend the best fit based on cargo type, urgency, destination, and budget.',
       },
       {
-        "question": "Can you support regular exporters?",
-        "answer": "Yes. We offer process support and pricing options for businesses with recurring export shipments."
+        question: 'Can you support regular exporters?',
+        answer: 'Yes. We offer process support and pricing options for businesses with recurring export shipments.',
       },
       {
-        "question": "Do you handle customs clearance support?",
-        "answer": "We guide you on documentation and compliance requirements to support smoother clearance. The exact process depends on goods, destination, and carrier/service selected."
+        question: 'Do you handle customs clearance support?',
+        answer: 'We guide you on documentation and compliance requirements to support smoother clearance. The exact process depends on goods, destination, and carrier selected.',
       },
       {
-        "question": "How do you calculate export shipping cost?",
-        "answer": "Pricing depends on destination, weight/volumetric weight, cargo type, and chosen mode (air/sea). Share shipment details and we’ll provide a clear quote."
-      }
-    ]
+        question: 'How is commercial shipping cost calculated?',
+        answer: 'Pricing depends on destination, weight or volumetric weight, cargo type, and chosen mode (air or sea). Share shipment details and we will provide a clear quote.',
+      },
+    ],
   },
   {
-    "slug": "amazon-fba-shipment",
-    "title": "Amazon FBA Shipment",
-    "bannerTitle": "Amazon FBA",
-    "bannerText": "FBA-ready pickup, labeling guidance, and fulfillment center delivery.",
-    "image": images.amazonFba,
-    "cardText": "Send inventory to Amazon fulfillment centers with labeling support, compliance guidance, and reliable delivery to key marketplaces.",
-    "faqIntro": "Quick answers about Amazon FBA shipping, labeling, pickup, and documentation.",
-    "introSections": [
+    slug: 'air-freight',
+    title: 'Air Freight',
+    bannerTitle: 'Air Freight',
+    bannerText: 'Priority air cargo for time-sensitive commercial and business shipments worldwide.',
+    image: images.airFreight,
+    cardText: 'Fast air freight for urgent commercial cargo with priority handling, customs support, and reliable international delivery.',
+    faqIntro: 'Quick answers about air freight booking, timelines, and documentation.',
+    introSections: [
       {
-        "title": "Amazon FBA Shipping, Made Easy",
-        "paragraphs": [
-          "Ship your inventory to Amazon fulfillment centers with labeling support, documentation guidance, and reliable delivery coordination.",
-          "We help Indian sellers send FBA shipments to key marketplaces like the USA, UK, and UAE while staying aligned with common Amazon requirements.",
-          "Get faster turnaround, fewer rejections, and end-to-end updates — from pickup in Ahmedabad to fulfillment center delivery."
-        ]
+        title: 'Air Freight for Faster Global Delivery',
+        paragraphs: [
+          'When speed matters, air freight is the fastest way to move commercial cargo across international borders.',
+          'Gujju Express coordinates priority air shipments for exporters, manufacturers, and businesses that need reliable transit times.',
+          'From pickup and documentation to airport dispatch and final delivery, we manage the process with clear updates throughout.',
+        ],
       },
       {
-        "title": "What we do for Amazon FBA",
-        "paragraphs": [
-          "Pickup & Carton Checks: We collect your inventory directly from your location and conduct a quick review of packing and labeling readiness to ensure your shipment meets fulfillment center standards.",
-          "Labeling Guidance: Our team provides support for FBA labels and carton marking so your inventory is easier to process and receive at the Amazon fulfillment center without delays.",
-          "Documentation Support: We guide you on invoice, KYC, and all shipment documents required for international dispatch and customs clearance, keeping your shipment compliant from day one.",
-          "Tracking & Delivery Coordination: Stay updated at every step with dedicated tracking and coordination until your shipment is confirmed received at the Amazon fulfillment center."
-        ]
-      }
+        title: 'What We Do',
+        paragraphs: [
+          'Cargo Assessment: We review weight, dimensions, and cargo type to recommend the right air freight option and routing.',
+          'Export Documentation: Support for invoices, packing lists, and compliance paperwork required for air export.',
+          'Priority Dispatch: Shipments are processed with priority handling to minimize transit time on major international routes.',
+          'End-to-End Tracking: Monitor your air cargo from collection through to delivery at the destination.',
+        ],
+      },
     ],
-    "benefitsIntro": {
-      "title": "Key Benefits — Amazon FBA Shipping Benefits",
-      "text": "FBA-ready preparation, smoother dispatch, and clear updates — built for sellers who ship regularly."
+    benefitsIntro: {
+      title: 'Why Choose Our Air Freight Service',
+      text: 'Speed, reliability, and expert coordination — for businesses that cannot afford delays.',
     },
-    "benefits": [
+    benefits: [
       {
-        "icon": "fas fa-clipboard-check",
-        "title": "FBA Compliance Support",
-        "text": "Guidance for shipment requirements to help reduce fulfillment center rejections and delays."
+        icon: 'fas fa-plane',
+        title: 'Fast Transit',
+        text: 'Air freight delivers significantly faster than sea options on most international routes.',
       },
       {
-        "icon": "fas fa-tags",
-        "title": "Labeling Help",
-        "text": "Support for FNSKU/shipping labels and packaging checks so cartons are prepared correctly."
+        icon: 'fas fa-shield-alt',
+        title: 'Secure Handling',
+        text: 'Professional coordination and packaging guidance for valuable or time-sensitive cargo.',
       },
       {
-        "icon": "fas fa-globe",
-        "title": "USA / UK / UAE Lanes",
-        "text": "Reliable routes to major Amazon regions with tracking and regular status updates."
+        icon: 'fas fa-file-alt',
+        title: 'Documentation Help',
+        text: 'Guidance on export paperwork and customs requirements to reduce avoidable holds.',
       },
       {
-        "icon": "fas fa-truck",
-        "title": "Pickup to FC Delivery",
-        "text": "Door pickup and delivery coordination to the fulfillment center — without operational hassle."
+        icon: 'fas fa-globe',
+        title: 'Global Routes',
+        text: 'Air freight support for key destinations including USA, UK, UAE, Europe, and Southeast Asia.',
       },
       {
-        "icon": "fab fa-whatsapp",
-        "title": "Fast Seller Support",
-        "text": "Quick help for booking, timelines, and tracking via WhatsApp and calls."
+        icon: 'fab fa-whatsapp',
+        title: 'Quick Updates',
+        text: 'Get booking confirmation and tracking support via WhatsApp and calls.',
       },
       {
-        "icon": "fas fa-money-bill-alt",
-        "title": "Cost-Effective Options",
-        "text": "Practical shipping choices based on shipment urgency and budget."
-      }
+        icon: 'fas fa-tags',
+        title: 'Clear Pricing',
+        text: 'Transparent quotes based on weight, dimensions, destination, and cargo type.',
+      },
     ],
-    "faqs": [
+    faqs: [
       {
-        "question": "Can you ship to Amazon fulfillment centers?",
-        "answer": "Yes. We coordinate shipments to Amazon fulfillment centers in supported regions and help you prepare the shipment correctly."
+        question: 'What is the typical delivery time for air freight?',
+        answer: 'Most air freight shipments arrive within 3–7 working days depending on destination, customs clearance, and final-mile delivery.',
       },
       {
-        "question": "Do you help with FBA labeling?",
-        "answer": "We provide guidance for FBA labels and packing readiness so cartons are prepared to meet common fulfillment center requirements."
+        question: 'What types of cargo can be shipped by air?',
+        answer: 'Commercial goods, samples, electronics, garments, and general cargo are commonly shipped by air. Restricted or hazardous items require special approval. Contact us with your cargo details.',
       },
       {
-        "question": "Which countries do you support for FBA shipments?",
-        "answer": "We commonly support shipments to the USA, UK, and UAE, and can assist with other regions based on your warehouse location and product category."
+        question: 'Do you provide pickup for air freight shipments?',
+        answer: 'Yes. We arrange pickup from your location in Ahmedabad and nearby areas based on your schedule.',
       },
       {
-        "question": "What documents are required for Amazon FBA shipping?",
-        "answer": "Typically you’ll need an invoice, KYC, and shipment details. Depending on destination and product category, additional documentation may be required. We share a checklist based on your shipment."
+        question: 'How is air freight pricing calculated?',
+        answer: 'Pricing is based on chargeable weight (actual or volumetric), destination, and cargo type. Share your shipment details for an accurate quote.',
       },
       {
-        "question": "Do you provide pickup and tracking for FBA shipments?",
-        "answer": "Yes. We coordinate doorstep pickup (as applicable) and provide tracking updates until the shipment reaches the fulfillment center."
-      }
-    ]
+        question: 'Can air freight be combined with door-to-door delivery?',
+        answer: 'Yes. We coordinate pickup from your location and delivery to the consignee\'s address at the destination where service is available.',
+      },
+    ],
   },
   {
-    "slug": "express-courier",
-    "title": "Express Courier",
-    "bannerTitle": "Express Courier",
-    "bannerText": "Priority handling for urgent international documents and parcels.",
-    "image": images.expressCourier,
-    "cardText": "Priority shipping for urgent deliveries with quick pickup and faster transit times—typically 2–5 working days.",
-    "faqIntro": "Quick answers about express courier booking, timelines, and tracking.",
-    "introSections": [
+    slug: 'ecommerce-shipping',
+    title: 'E-Commerce Shipping',
+    bannerTitle: 'E-Commerce Shipping',
+    bannerText: 'Affordable international shipping for online sellers, marketplaces, and growing e-commerce brands.',
+    image: images.ecommerce,
+    cardText: 'Ship e-commerce orders and inventory globally with competitive rates, marketplace-ready handling, and reliable delivery to key regions.',
+    faqIntro: 'Quick answers about e-commerce international shipping, marketplaces, and bulk inventory dispatch.',
+    introSections: [
       {
-        "title": "Express Courier, Fast & Reliable",
-        "paragraphs": [
-          "When timelines are tight, choose express courier for priority handling and faster global delivery.",
-          "We support urgent documents, parcels, and business shipments with pickup, tracking, and documentation guidance.",
-          "Typical international express delivery is 2–5 working days depending on destination and clearance."
-        ]
+        title: 'International Shipping for Online Sellers',
+        paragraphs: [
+          'Growing your online store internationally requires reliable, cost-effective shipping — and that is exactly what we deliver.',
+          'Gujju Express supports e-commerce sellers, SMEs, and marketplace vendors with international parcel and inventory shipping to the USA, UK, UAE, and beyond.',
+          'From single orders to bulk inventory shipments, we help you reach customers and fulfillment centers with transparent pricing and dependable service.',
+        ],
       },
       {
-        "title": "What we do in Express Courier",
-        "paragraphs": [
-          "Quick Booking: Share your shipment details and destination to receive an express quote and confirmed pickup schedule without any delays or back-and-forth.",
-          "Same-Day Pickup (Where Available): We arrange doorstep pickup from your location in Ahmedabad and nearby areas, making it easy to dispatch without visiting a courier office.",
-          "Priority Dispatch: Once collected, your shipment is processed with priority handling to minimize transit time and ensure it reaches the destination as quickly as possible.",
-          "Real-Time Tracking: Receive tracking updates from the moment your shipment is dispatched to final delivery, with our team available to assist if anything needs attention along the way."
-        ]
-      }
+        title: 'What We Do',
+        paragraphs: [
+          'Order & Inventory Shipping: Ship individual customer orders or bulk inventory to international marketplaces and warehouses.',
+          'Marketplace Support: Guidance for common marketplace and fulfillment center requirements including labeling and documentation.',
+          'Cost-Effective Routing: Competitive rates designed for e-commerce margins — save on shipping compared to many standard courier options.',
+          'Tracking & Updates: Real-time tracking and proactive updates so you and your customers stay informed.',
+        ],
+      },
     ],
-    "benefitsIntro": {
-      "title": "Key Benefits — Express Courier Benefits",
-      "text": "Faster delivery, proactive updates, and dependable support — for time-sensitive shipments."
+    benefitsIntro: {
+      title: 'Why Choose Our E-Commerce Shipping',
+      text: 'Built for sellers who need reliable international delivery at rates that protect their margins.',
     },
-    "benefits": [
+    benefits: [
       {
-        "icon": "fas fa-bolt",
-        "title": "Fast Transit",
-        "text": "Priority handling to help deliver urgent shipments quickly across major international routes."
+        icon: 'fas fa-shopping-cart',
+        title: 'Seller-Friendly Rates',
+        text: 'Competitive international shipping rates designed for e-commerce businesses and online marketplaces.',
       },
       {
-        "icon": "fas fa-shield-alt",
-        "title": "Secure Handling",
-        "text": "Professional packaging guidance and careful processing for important items and documents."
+        icon: 'fas fa-box',
+        title: 'Order & Bulk Shipping',
+        text: 'Handle single parcels or bulk inventory shipments to customers and fulfillment centers worldwide.',
       },
       {
-        "icon": "fas fa-file-alt",
-        "title": "Documentation Help",
-        "text": "Guidance for KYC and basic shipment paperwork to help reduce avoidable delays."
+        icon: 'fas fa-globe',
+        title: 'Global Marketplace Lanes',
+        text: 'Reliable routes to the USA, UK, UAE, and other key e-commerce markets.',
       },
       {
-        "icon": "fas fa-globe",
-        "title": "Worldwide Coverage",
-        "text": "Express service support for key destinations including USA, UK, UAE, Europe, and more."
+        icon: 'fas fa-clipboard-check',
+        title: 'Compliance Guidance',
+        text: 'Support for labeling, invoicing, and documentation to help reduce fulfillment delays.',
       },
       {
-        "icon": "fab fa-whatsapp",
-        "title": "Fast Updates",
-        "text": "Get quick tracking support and status updates via WhatsApp and calls."
+        icon: 'fab fa-whatsapp',
+        title: 'Fast Seller Support',
+        text: 'Quick help for booking, timelines, and tracking via WhatsApp and calls.',
       },
       {
-        "icon": "fas fa-tags",
-        "title": "Clear Pricing",
-        "text": "Transparent quotes based on destination, weight, and shipment type."
-      }
+        icon: 'fas fa-chart-line',
+        title: 'Scale with Confidence',
+        text: 'Process support for sellers shipping regularly as order volumes grow.',
+      },
     ],
-    "faqs": [
+    faqs: [
       {
-        "question": "What is the delivery time for express international courier?",
-        "answer": "Most express shipments deliver in 2–5 working days depending on destination and customs clearance timelines."
+        question: 'Can you ship to Amazon and other marketplace fulfillment centers?',
+        answer: 'Yes. We coordinate shipments to major marketplace fulfillment centers and guide you on common labeling and documentation requirements.',
       },
       {
-        "question": "Do you provide pickup?",
-        "answer": "Yes. We offer doorstep pickup based on your location and pickup schedule availability."
+        question: 'Do you offer rates for regular e-commerce shippers?',
+        answer: 'Yes. We provide competitive pricing options for sellers with recurring international shipping volumes. Contact us with your monthly shipment details.',
       },
       {
-        "question": "Do express shipments include tracking?",
-        "answer": "Yes. You receive a tracking number after dispatch and we can help you with updates if anything needs attention."
+        question: 'Which countries do you support for e-commerce shipping?',
+        answer: 'We commonly support the USA, UK, UAE, Canada, Australia, and other major e-commerce destinations. Share your target market and we will confirm availability.',
       },
       {
-        "question": "What items can I send via express international courier?",
-        "answer": "You can typically send documents, parcels, samples, and many commercial goods (subject to restrictions). Prohibited or hazardous items cannot be shipped. Contact us with item details for confirmation."
+        question: 'Can you ship both individual orders and bulk inventory?',
+        answer: 'Yes. We handle single customer orders as well as bulk inventory shipments to warehouses and fulfillment centers.',
       },
       {
-        "question": "Do you help with documentation for express shipments?",
-        "answer": "Yes. We guide you on the basic paperwork such as KYC, invoice/contents details, and any required shipment information to reduce avoidable delays."
-      }
-    ]
+        question: 'What documents are required for e-commerce shipments?',
+        answer: 'Typically an invoice, KYC, and shipment details. Additional documentation may apply based on destination and product category. We provide a checklist for your shipment.',
+      },
+    ],
   },
   {
-    "slug": "documentation-support",
-    "title": "Documentation Support",
-    "bannerTitle": "Documentation Support",
-    "bannerText": "Clear paperwork guidance to reduce delays and customs holds.",
-    "image": images.documentationSupport,
-    "cardText": "Reduce customs delays with expert help for KYC, invoices, packing lists, and export documentation—done right the first time.",
-    "faqIntro": "Quick answers about international shipping paperwork.",
-    "introSections": [
+    slug: 'door-to-door',
+    title: 'Door to Door',
+    bannerTitle: 'Door to Door',
+    bannerText: 'Complete pickup-to-delivery service — we handle logistics so you do not have to visit courier offices.',
+    image: images.doorToDoor,
+    cardText: 'Full door-to-door international shipping from your location to the recipient\'s address with customs support and real-time tracking.',
+    faqIntro: 'Quick answers about door-to-door pickup, delivery, and the shipping process.',
+    introSections: [
       {
-        "title": "Documentation Support, No Stress",
-        "paragraphs": [
-          "Avoid delays and rejections with accurate paperwork for international courier and commercial shipments.",
-          "Our team helps you prepare key documents such as invoices, packing lists, KYC, and shipment details.",
-          "Whether you're shipping samples, gifts, or commercial cargo, correct documentation keeps your shipment moving."
-        ]
+        title: 'From Your Door to Theirs',
+        paragraphs: [
+          'Door-to-door shipping means we collect your shipment from your home, office, or warehouse and deliver it directly to the recipient\'s address anywhere in the world.',
+          'No middle steps, no drop-offs at courier branches — Gujju Express manages the entire journey including documentation and customs coordination.',
+          'It is the simplest way to ship internationally, whether you are sending a personal parcel or commercial cargo.',
+        ],
       },
       {
-        "title": "What we do in Documentation Support",
-        "paragraphs": [
-          "KYC Details: We collect basic shipper identification details as required for booking and dispatch, ensuring your shipment is verified and ready to move without unnecessary hold-ups.",
-          "Commercial Invoice: Our team helps you prepare the commercial invoice with accurate item descriptions, declared value, and shipment purpose for smooth international processing and customs clearance.",
-          "Packing List: We guide you on creating a complete packing list with correct quantity, weight, and packaging details to support smoother handling, inspection, and clearance at each stage.",
-          "Shipment Declarations: Where applicable, we assist with additional declarations required by the destination country or specific shipment category to ensure full compliance and on-time delivery."
-        ]
-      }
+        title: 'Simple 3-Step Shipping',
+        paragraphs: [
+          'Book & Get a Quote: Share your shipment details online or via WhatsApp for an instant price and pickup schedule.',
+          'Pickup & Clearance: We collect your package and handle customs paperwork and export documentation.',
+          'Track & Deliver: Monitor your shipment in real time as it reaches its destination on time.',
+        ],
+      },
     ],
-    "benefitsIntro": {
-      "title": "Key Benefits — Documentation Support Benefits",
-      "text": "Clear guidance, faster processing, fewer delays — so shipments move smoothly."
+    benefitsIntro: {
+      title: 'Why Choose Door to Door Shipping',
+      text: 'Convenience, transparency, and end-to-end care — from pickup to final delivery.',
     },
-    "benefits": [
+    benefits: [
       {
-        "icon": "fas fa-file-alt",
-        "title": "Correct Paperwork",
-        "text": "Support for invoices, packing lists, and shipment details based on your goods and destination."
+        icon: 'fas fa-truck',
+        title: 'Doorstep Pickup',
+        text: 'We collect from your home, office, or warehouse — saving you time and travel.',
       },
       {
-        "icon": "fas fa-clock",
-        "title": "Fewer Delays",
-        "text": "Reduce avoidable customs holds caused by missing or incorrect information."
+        icon: 'fas fa-home',
+        title: 'Direct Delivery',
+        text: 'Shipments delivered to the recipient\'s address at the destination where service is available.',
       },
       {
-        "icon": "fas fa-globe",
-        "title": "Country Guidance",
-        "text": "Practical guidance for destination requirements and restrictions (as applicable)."
+        icon: 'fas fa-file-alt',
+        title: 'Customs Handled',
+        text: 'Documentation and customs clearance support so your shipment moves smoothly across borders.',
       },
       {
-        "icon": "fab fa-whatsapp",
-        "title": "Fast Support",
-        "text": "Quick help on WhatsApp for questions during booking and dispatch."
+        icon: 'fas fa-map-marker-alt',
+        title: 'Real-Time Tracking',
+        text: 'Track your shipment at every stage from collection to final delivery.',
       },
       {
-        "icon": "fas fa-truck",
-        "title": "Smoother Dispatch",
-        "text": "Get shipments prepared faster with a simple checklist and step-by-step assistance."
+        icon: 'fab fa-whatsapp',
+        title: 'Easy Booking',
+        text: 'Book and get quotes quickly via WhatsApp or phone — no complicated forms.',
       },
       {
-        "icon": "fas fa-tasks",
-        "title": "Clear Process",
-        "text": "Simple instructions so businesses and first-time shippers can book confidently."
-      }
+        icon: 'fas fa-tags',
+        title: 'All-Inclusive Quotes',
+        text: 'Clear pricing with no surprise fees — know your cost upfront.',
+      },
     ],
-    "faqs": [
+    faqs: [
       {
-        "question": "What documents are usually required?",
-        "answer": "Most shipments require KYC plus an invoice and packing details. Requirements can vary by destination and product category. We share a checklist based on your shipment."
+        question: 'What does door-to-door shipping include?',
+        answer: 'It includes pickup from your location, export documentation support, international transit, customs clearance coordination, and delivery to the recipient\'s address at the destination.',
       },
       {
-        "question": "Will documentation mistakes cause delays?",
-        "answer": "They can. Incorrect descriptions, missing values, or incomplete details often lead to holds. Our guidance helps reduce those avoidable issues."
+        question: 'Do you provide pickup in Ahmedabad and nearby areas?',
+        answer: 'Yes. Pickup is available based on your location and schedule. Share your address and preferred time and we will confirm the slot.',
       },
       {
-        "question": "Can you help first-time international shippers?",
-        "answer": "Yes. We provide a simple checklist and step-by-step help so you can book confidently and dispatch without confusion."
+        question: 'Is door-to-door available for all countries?',
+        answer: 'Door-to-door service is available for most major destinations including the USA, UK, UAE, Canada, and Europe. Contact us to confirm service for your specific destination.',
       },
       {
-        "question": "Do you help with commercial invoice and packing list format?",
-        "answer": "Yes. We guide you on what information to include (item description, quantity, value, purpose) so documentation is clearer for processing and clearance."
+        question: 'How do I book a door-to-door shipment?',
+        answer: `Contact us at ${CONTACT.phone} or via WhatsApp with your pickup address, destination, and shipment details. We will provide a quote and schedule pickup.`,
       },
       {
-        "question": "What details do you need to prepare the document checklist?",
-        "answer": "We’ll ask for item type, value, destination, shipment purpose (gift/sample/commercial), and packaging details. Based on this, we share the required documents and next steps."
-      }
-    ]
+        question: 'Can businesses use door-to-door shipping?',
+        answer: 'Yes. Door-to-door service is available for both personal and commercial shipments including samples, parcels, and regular business cargo.',
+      },
+    ],
   },
   {
-    "slug": "pickup-packaging-guidance",
-    "title": "Pickup & Packaging Guidance",
-    "bannerTitle": "Pickup & Packaging",
-    "bannerText": "Doorstep pickup with practical packaging guidance for safer delivery.",
-    "image": images.pickupPackaging,
-    "cardText": "Doorstep pickup with practical packing guidance to help protect your shipment in transit and meet carrier requirements.",
-    "faqIntro": "Quick answers about pickup scheduling and packaging guidance.",
-    "introSections": [
+    slug: 'excess-baggage',
+    title: 'Excess Baggage',
+    bannerTitle: 'Excess Baggage',
+    bannerText: 'Affordable international shipping for extra luggage, relocation items, and personal belongings.',
+    image: images.excessBaggage,
+    cardText: 'Send excess luggage and personal belongings abroad at affordable rates — ideal for students, professionals, and families relocating internationally.',
+    faqIntro: 'Quick answers about excess baggage shipping, student relocation, and personal item delivery.',
+    introSections: [
       {
-        "title": "Pickup & Packaging, Done Safely",
-        "paragraphs": [
-          "Save time with pickup from your home, office, or warehouse and ship confidently with practical packaging guidance.",
-          "Correct packing helps prevent transit damage and reduces courier exceptions caused by weak or non-compliant packaging.",
-          "We guide you on packing based on shipment type — documents, parcels, samples, or commercial goods."
-        ]
+        title: 'Ship Your Extra Luggage Worldwide',
+        paragraphs: [
+          'Traveling or relocating abroad and have more baggage than your airline allows? Gujju Express offers affordable excess baggage shipping to destinations worldwide.',
+          'Ideal for students moving overseas, professionals relocating, and families sending personal belongings — we make international baggage shipping simple and cost-effective.',
+          'We handle pickup, documentation, and delivery so your belongings arrive safely at your new destination.',
+        ],
       },
       {
-        "title": "What we do in Pickup & Packaging",
-        "paragraphs": [
-          "Strong Outer Box: We advise on using a sturdy carton that can withstand stacking and rigorous handling throughout the transit journey, protecting your goods from the moment they leave your hands.",
-          "Internal Protection: Our team guides you on using bubble wrap, foam, or padding to prevent any internal movement and absorb shocks, significantly reducing the risk of damage in transit.",
-          "Seal & Label Clearly: We ensure all edges are sealed properly and that the shipping label is clearly visible, correctly placed, and scannable at every hub and checkpoint along the route.",
-          "Declare Contents Accurately: Accurate and complete item descriptions on your shipment help avoid unnecessary holds, exceptions, and customs delays during international transit."
-        ]
-      }
+        title: 'What We Do',
+        paragraphs: [
+          'Baggage Pickup: We collect your excess luggage or packed boxes from your home or hostel in Ahmedabad and nearby areas.',
+          'Secure Packing Guidance: Practical advice on packing clothes, books, electronics, and personal items for safe international transit.',
+          'Affordable Rates: Cost-effective shipping options compared to airline excess baggage fees on many international routes.',
+          'Door-to-Door Delivery: Your baggage delivered to your address abroad where service is available, with tracking throughout.',
+        ],
+      },
     ],
-    "benefitsIntro": {
-      "title": "Key Benefits — Pickup & Packaging Benefits",
-      "text": "Easy pickup, better packing, smoother delivery — for safer shipping."
+    benefitsIntro: {
+      title: 'Why Choose Our Excess Baggage Service',
+      text: 'Save on airline fees, ship more, and travel lighter — with reliable international delivery.',
     },
-    "benefits": [
+    benefits: [
       {
-        "icon": "fas fa-truck",
-        "title": "Doorstep Pickup",
-        "text": "Pickup scheduling to match your availability — ideal for busy businesses and individuals."
+        icon: 'fas fa-suitcase',
+        title: 'Beat Airline Fees',
+        text: 'Ship excess luggage at rates often lower than airline excess baggage charges on international routes.',
       },
       {
-        "icon": "fas fa-cube",
-        "title": "Safer Packing",
-        "text": "Practical guidance to protect items in transit and reduce the risk of damage."
+        icon: 'fas fa-graduation-cap',
+        title: 'Student Friendly',
+        text: 'Popular with students relocating abroad for studies — books, clothes, and personal items shipped affordably.',
       },
       {
-        "icon": "fas fa-tag",
-        "title": "Labeling Guidance",
-        "text": "Help with basic address/label readiness so shipments move through hubs smoothly."
+        icon: 'fas fa-truck',
+        title: 'Doorstep Pickup',
+        text: 'We collect from your home, hostel, or office — no need to carry heavy bags to a courier office.',
       },
       {
-        "icon": "fas fa-globe",
-        "title": "International Ready",
-        "text": "Packing tips aligned to common international courier handling and compliance expectations."
+        icon: 'fas fa-shield-alt',
+        title: 'Safe Handling',
+        text: 'Packing guidance and careful processing to protect your belongings in transit.',
       },
       {
-        "icon": "fab fa-whatsapp",
-        "title": "Quick Help",
-        "text": "Share photos and get quick suggestions on WhatsApp before dispatch."
+        icon: 'fas fa-globe',
+        title: 'Worldwide Delivery',
+        text: 'Ship excess baggage to the USA, UK, UAE, Canada, Australia, and other popular destinations.',
       },
       {
-        "icon": "fas fa-tags",
-        "title": "Cost Efficient",
-        "text": "Better packaging reduces damage risk and helps avoid re-packing or re-dispatch costs."
-      }
+        icon: 'fab fa-whatsapp',
+        title: 'Quick Quotes',
+        text: 'Share your destination and weight details on WhatsApp for a fast, clear quote.',
+      },
     ],
-    "faqs": [
+    faqs: [
       {
-        "question": "Do you provide doorstep pickup in Ahmedabad?",
-        "answer": "Yes. Pickup is available based on your location and schedule availability. Share your address and preferred time and we'll confirm the pickup slot."
+        question: 'What is excess baggage shipping?',
+        answer: 'It is international shipping for luggage and personal belongings that exceed airline baggage limits — a cost-effective alternative to paying airline excess fees.',
       },
       {
-        "question": "Will you pack the shipment?",
-        "answer": "We provide packaging guidance and can advise on materials and methods. If you need packing support, contact us and we'll suggest the best option based on shipment type and pickup location."
+        question: 'Is this service suitable for students relocating abroad?',
+        answer: 'Yes. Many students use our excess baggage service to ship books, clothes, and personal items before or after traveling to their study destination.',
       },
       {
-        "question": "What is the best way to pack fragile items?",
-        "answer": "Use a strong carton, double-layer protection (bubble wrap/foam), and fill empty space so items don't move. Share item details and we'll recommend a packing approach."
+        question: 'What can I include in an excess baggage shipment?',
+        answer: 'Clothes, books, personal electronics, household items, and general belongings are commonly shipped. Prohibited items like liquids, batteries, and restricted goods cannot be included. Contact us for a full list.',
       },
       {
-        "question": "Can you suggest packaging for international shipments?",
-        "answer": "Yes. We share packing guidance based on shipment type, weight, and item sensitivity so it can handle common international handling and transit conditions."
+        question: 'How long does excess baggage delivery take?',
+        answer: 'Delivery typically takes 7–14 working days depending on destination and service type selected. Express options may be available for faster delivery.',
       },
       {
-        "question": "What details should I share for packaging guidance?",
-        "answer": "Share the item type, approximate weight/dimensions, whether it’s fragile/liquid/electronic, and destination (if international). Photos on WhatsApp also help us suggest the right packing approach."
-      }
-    ]
-  }
+        question: 'Do you provide pickup for excess baggage?',
+        answer: 'Yes. We arrange doorstep pickup in Ahmedabad and nearby areas. Share your address and preferred date and we will confirm the schedule.',
+      },
+    ],
+  },
 ]
 
 export function getServiceBySlug(slug) {
