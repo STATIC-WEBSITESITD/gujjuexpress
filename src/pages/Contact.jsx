@@ -152,7 +152,11 @@ function Contact() {
                   </li>
                   <li>
                     <i className="fa-solid fa-phone" aria-hidden="true"></i>
-                    <a href={CONTACT.phoneHref}>{CONTACT.phone}</a>
+                    <span>
+                      <a href={CONTACT.phoneHref}>{CONTACT.phone}</a>
+                      <br />
+                      <a href={CONTACT.phone2Href}>{CONTACT.phone2}</a>
+                    </span>
                   </li>
                   <li>
                     <i className="fa-brands fa-whatsapp" aria-hidden="true"></i>

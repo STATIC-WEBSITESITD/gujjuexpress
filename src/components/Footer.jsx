@@ -126,6 +126,12 @@ function Footer() {
                   {CONTACT.phone}
                 </a>
               </li>
+              <li>
+                <a href={CONTACT.phone2Href}>
+                  <i className="fa-solid fa-phone me-2" aria-hidden="true"></i>
+                  {CONTACT.phone2}
+                </a>
+              </li>
             </ul>
 
           </Col>
