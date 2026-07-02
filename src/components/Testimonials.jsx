@@ -1,4 +1,3 @@
-import React from 'react'
 import { Container } from 'react-bootstrap'
 
 import { Swiper, SwiperSlide } from 'swiper/react'
@@ -12,27 +11,32 @@ function Testimonials() {
     {
       text:
         'Excellent international courier service from Ahmedabad. Door-to-door pickup was smooth and my parcel reached the UK on time with clear tracking updates.',
-      name: 'Stephan Seigieth'
+      name: 'Yash Patel'
     },
     {
       text:
         'We use Gujju Express for commercial shipments and air freight regularly. Transparent pricing, reliable delivery, and great WhatsApp support throughout.',
-      name: 'Rahul Mahto'
+      name: 'Archana Ghatiya'
     },
     {
       text:
         'Affordable e-commerce shipping rates that helped us expand to the USA and UAE. Professional team and hassle-free documentation support.',
-      name: 'Akhil Patnayak'
+      name: 'Milan Bhalodiya'
     },
     {
       text:
         'Sent excess baggage abroad before relocating for studies. Much cheaper than airline fees and everything arrived safely at my destination.',
-      name: 'Rakesh Panigarhi'
+      name: 'Chintan Mehta'
     },
     {
       text:
         'Best international courier in Gujarat. Fast pickup, secure handling, and dependable delivery for both personal and business shipments.',
-      name: 'Papercraft'
+      name: 'Keyur Bangoriya'
+    },
+    {
+      text:
+        'Highly recommend their student shipping services. The team helped pack all my belongings safely and delivered them to Canada on time.',
+      name: 'Disha Patel'
     }
   ]
 
