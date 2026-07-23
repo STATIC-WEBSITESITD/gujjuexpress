@@ -8,7 +8,7 @@ function AboutPurpose() {
       icon: 'fa-solid fa-eye',
       title: 'Our Vision',
       text:
-        'To be the most trusted international shipping partner from Ahmedabad — connecting Indian businesses and individuals to 200+ global destinations with confidence and care.'
+        'To be the most trusted international shipping partner from Surat — connecting Indian businesses and individuals to 200+ global destinations with confidence and care.'
     },
     {
       icon: 'fa-solid fa-bullseye',

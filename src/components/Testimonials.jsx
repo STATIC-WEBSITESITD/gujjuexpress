@@ -10,7 +10,7 @@ function Testimonials() {
   const testimonials = [
     {
       text:
-        'Excellent international courier service from Ahmedabad. Door-to-door pickup was smooth and my parcel reached the UK on time with clear tracking updates.',
+        'Excellent international courier service from Surat. Door-to-door pickup was smooth and my parcel reached the UK on time with clear tracking updates.',
       name: 'Yash Patel'
     },
     {

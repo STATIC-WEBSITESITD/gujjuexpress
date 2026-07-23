@@ -11,9 +11,9 @@ function AboutFaq() {
         'We deliver to 200+ countries and territories worldwide, including the USA, UK, UAE, Canada, Australia, Germany, Singapore, Saudi Arabia, and all major international destinations.'
     },
     {
-      question: 'How do I book a pickup from Ahmedabad?',
+      question: 'How do I book a pickup from Surat?',
       answer:
-        'Contact us by phone or WhatsApp with your pickup address, package weight, dimensions, and destination. We confirm the slot and arrange doorstep collection across Ahmedabad and nearby areas for all service types.'
+        'Contact us by phone or WhatsApp with your pickup address, package weight, dimensions, and destination. We confirm the slot and arrange doorstep collection across Surat and nearby areas for all service types.'
     },
     {
       question:

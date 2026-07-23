@@ -21,7 +21,7 @@ function About() {
           <p className="page-banner-text">
             Gujju Express is more than shipping — it is about connections,
             memories, and dreams crossing borders. Learn how we help businesses
-            and individuals ship worldwide from Ahmedabad with care and reliability.
+            and individuals ship worldwide from Surat with care and reliability.
           </p>
         </Container>
       </section>

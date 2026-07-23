@@ -29,7 +29,7 @@ export const services = [
         title: 'Global Shipping, Simplified',
         paragraphs: [
           'Gujju Express connects individuals and businesses to global destinations with fast, reliable international courier service.',
-          'From Ahmedabad to the UK, USA, Canada, UAE, and across Europe — we handle pickup, documentation, and delivery with clear updates at every stage.',
+          'From Surat to the UK, USA, Canada, UAE, and across Europe — we handle pickup, documentation, and delivery with clear updates at every stage.',
           'Enjoy transparent pricing, direct carrier networks, and dependable service whether you are sending once or shipping regularly.',
         ],
       },
@@ -262,7 +262,7 @@ export const services = [
       },
       {
         question: 'Do you provide pickup for air freight shipments?',
-        answer: 'Yes. We arrange pickup from your location in Ahmedabad and nearby areas based on your schedule.',
+        answer: 'Yes. We arrange pickup from your location in Surat and nearby areas based on your schedule.',
       },
       {
         question: 'How is air freight pricing calculated?',
@@ -428,7 +428,7 @@ export const services = [
         answer: 'It includes pickup from your location, export documentation support, international transit, customs clearance coordination, and delivery to the recipient\'s address at the destination.',
       },
       {
-        question: 'Do you provide pickup in Ahmedabad and nearby areas?',
+        question: 'Do you provide pickup in Surat and nearby areas?',
         answer: 'Yes. Pickup is available based on your location and schedule. Share your address and preferred time and we will confirm the slot.',
       },
       {
@@ -465,7 +465,7 @@ export const services = [
       {
         title: 'What We Do',
         paragraphs: [
-          'Baggage Pickup: We collect your excess luggage or packed boxes from your home or hostel in Ahmedabad and nearby areas.',
+          'Baggage Pickup: We collect your excess luggage or packed boxes from your home or hostel in Surat and nearby areas.',
           'Secure Packing Guidance: Practical advice on packing clothes, books, electronics, and personal items for safe international transit.',
           'Affordable Rates: Cost-effective shipping options compared to airline excess baggage fees on many international routes.',
           'Door-to-Door Delivery: Your baggage delivered to your address abroad where service is available, with tracking throughout.',
@@ -527,7 +527,7 @@ export const services = [
       },
       {
         question: 'Do you provide pickup for excess baggage?',
-        answer: 'Yes. We arrange doorstep pickup in Ahmedabad and nearby areas. Share your address and preferred date and we will confirm the schedule.',
+        answer: 'Yes. We arrange doorstep pickup in Surat and nearby areas. Share your address and preferred date and we will confirm the schedule.',
       },
     ],
   },

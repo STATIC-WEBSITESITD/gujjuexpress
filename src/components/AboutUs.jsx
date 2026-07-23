@@ -49,7 +49,7 @@ function AboutUs() {
               <p className="section-para mb-4">
                 Welcome to <strong>Gujju Express</strong>,
                 your reliable international logistics partner
-                based in Ahmedabad, Gujarat.
+                based in Surat, Gujarat.
               </p>
 
               <p className="section-para mb-4">
