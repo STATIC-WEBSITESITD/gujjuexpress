@@ -1,8 +1,8 @@
 const API_BASE =
-  '#/api/tracking_api/get_tracking_data'
+  'https://admin.gujjuexpress.com/api/tracking_api/get_tracking_data'
 
 const API_QUERY =
-  'customer_code=superadmin&company=gujju-express&api_company_id=2'
+  'customer_code=superadmin&company=gujju-express&api_company_id=46'
 
 export function formatDate(date) {
   if (!(date instanceof Date) || Number.isNaN(date.getTime())) return ' '
