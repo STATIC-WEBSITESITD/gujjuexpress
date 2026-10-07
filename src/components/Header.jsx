@@ -81,6 +81,9 @@ function Header() {
             <Nav.Link as={Link} to="/tracking" onClick={closeMobileNav}>
               Tracking
             </Nav.Link>
+            <Nav.Link as={Link} to="/blogs" onClick={closeMobileNav}>
+              Blogs
+            </Nav.Link>
             <Nav.Link as={Link} to="/contact-us" onClick={closeMobileNav}>
               Contact Us
             </Nav.Link>
